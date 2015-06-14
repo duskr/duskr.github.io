@@ -3,10 +3,10 @@
   <channel>
     <title>Journal</title>
     <description>This is mostly about writing things.</description>
-    <link>http://jonathanlurie.github.io//</link>
-    <atom:link href="http://jonathanlurie.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Jun 2015 10:12:47 -0400</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2015 10:12:47 -0400</lastBuildDate>
+    <link>http://duskr.github.io//</link>
+    <atom:link href="http://duskr.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 13 Jun 2015 23:09:32 -0400</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2015 23:09:32 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sat, 13 Jun 2015 10:12:46 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2015/06/13/my-draft-title/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2015/06/13/my-draft-title/</guid>
+        <link>http://duskr.github.io//2015/06/13/my-draft-title/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2015/06/13/my-draft-title/</guid>
         
         
       </item>
@@ -25,8 +25,8 @@
         <description>&lt;p&gt;Hello, this is an octopress post&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Jun 2015 09:42:19 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2015/06/13/an-octopress-post/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2015/06/13/an-octopress-post/</guid>
+        <link>http://duskr.github.io//2015/06/13/an-octopress-post/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2015/06/13/an-octopress-post/</guid>
         
         
       </item>
@@ -69,8 +69,8 @@
 &lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 08:00:00 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2014/09/24/man-must-explore/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2014/09/24/man-must-explore/</guid>
+        <link>http://duskr.github.io//2014/09/24/man-must-explore/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2014/09/24/man-must-explore/</guid>
         
         
       </item>
@@ -113,8 +113,8 @@
 &lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 Sep 2014 08:00:00 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2014/09/18/i-believe/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2014/09/18/i-believe/</guid>
+        <link>http://duskr.github.io//2014/09/18/i-believe/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2014/09/18/i-believe/</guid>
         
         
       </item>
@@ -157,8 +157,8 @@
 &lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 24 Aug 2014 08:00:00 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2014/08/24/science-has-not-yet-mastered-prophecy/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2014/08/24/science-has-not-yet-mastered-prophecy/</guid>
+        <link>http://duskr.github.io//2014/08/24/science-has-not-yet-mastered-prophecy/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2014/08/24/science-has-not-yet-mastered-prophecy/</guid>
         
         
       </item>
@@ -201,8 +201,8 @@
 &lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Jul 2014 08:00:00 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2014/07/08/failure-is-not-an-option/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2014/07/08/failure-is-not-an-option/</guid>
+        <link>http://duskr.github.io//2014/07/08/failure-is-not-an-option/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2014/07/08/failure-is-not-an-option/</guid>
         
         
       </item>
@@ -245,8 +245,8 @@
 &lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Jul 2014 08:00:00 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2014/07/01/dreams/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2014/07/01/dreams/</guid>
+        <link>http://duskr.github.io//2014/07/01/dreams/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2014/07/01/dreams/</guid>
         
         
       </item>
@@ -289,8 +289,8 @@
 &lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Jun 2014 08:00:00 -0400</pubDate>
-        <link>http://jonathanlurie.github.io//2014/06/10/dinosaurs/</link>
-        <guid isPermaLink="true">http://jonathanlurie.github.io//2014/06/10/dinosaurs/</guid>
+        <link>http://duskr.github.io//2014/06/10/dinosaurs/</link>
+        <guid isPermaLink="true">http://duskr.github.io//2014/06/10/dinosaurs/</guid>
         
         
       </item>
