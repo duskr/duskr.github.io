@@ -1,23 +1,86 @@
-# Site settings
-title: Journal
-header-img: img/post-bg-04.jpg
-email: hello@duskr.co
-description: "This is mostly about writing things."
-baseurl: ""
-url: "http://duskr.github.io/"
-twitter_username: jonathanlurie
-github_username:  jonathanlurie
-facebook_username:  jonathan.lurie
+### GENERAL SETTINGS ###
 
-# octopress options
-post_ext: md
-page_ext: html
-post_layout: post
-page_layout: page
+# Site settings
+title: Duskr
+description: "Duskr enables you to make beautiful timelapse sequences in variant lighting conditions, unlocking the power of raw."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://duskr.co"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#5FA292" #"#F70031"
+  primary_rgb: "249,223,141" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#253939" #"#33004D"
+  link: "#FF9C5F"
+  link_hover: "#FF8B6C"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: twitter
+    url: https://twitter.com/jonathanlurie
+  - title: tumblr
+    url:
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - Chicoutimi, Quebec, Canada.
+email: hello@duskr.co
+tel: on request
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: Jonathan Lurie
+    position: Lead Engineer / Photographer
+    text: Jonathan initialized the project, thinking it was a shame not to use the power of raw when making a timelapse. So he just coded that, Duskr was born.
+    img: jonathan.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:hello@duskr.co
+      - title: twitter
+        url: https://twitter.com/jonathanlurie
+
+  - name: You
+    position: Associate / Great Mind
+    text: A lot of ideas are still in a box here, needing brilliant people to release them. You can also come with your idea!
+    img: magritte.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:hello@duskr.co
+      - title: twitter
+        url: https://twitter.com/jonathanlurie
+
+
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Duskr enables you to make beautiful timelapse sequences in variant lighting conditions, unlocking the power of raw."
+
+# Testimonial content. Shown on Home and About page.
+testimonial:
+    message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    author: Marcel Newman
+    position: WEB DESIGNER - BLACKTIE.CO

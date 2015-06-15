@@ -1,224 +1,282 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is mostly about writing things.">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 
-    <title>Contact - Journal</title>
+    <title>Duskr - Contact</title>
 
-    <link rel="canonical" href="http://duskr.github.io//contact/">
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/clean-blog.css">
+    <!--<link rel="stylesheet" href="/css/main.css">-->
 
-    <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
 
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
-    <!-- jQuery -->
-    <script src="/js/jquery.min.js "></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js "></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="/js/clean-blog.js "></script>
-
-
+    <script src="/assets/js/modernizr.js"></script>
 </head>
 
 
-<body>
+    <body>
+        <!-- Fixed navbar -->
 
-    <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Journal</a>
-        </div>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                
-                <li>
-                    <a href="/about/">Help</a>
-                </li>
-                
-                <li>
-                    <a href="/contact/">Contact</a>
-                </li>
-                
-                <li>
-                    <a href="/help/">About</a>
-                </li>
-                
-                <li>
-                    <a href="/yeah/">Yeah</a>
-                </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+  <div class="container">
+
+    <div class="navbar-header">
+      <img src="/assets/img/logo_300.png" width="50px">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Duskr</a>
+
     </div>
-    <!-- /.container -->
-</nav>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
 
+        <li ><a href="/">HOME</a></li>
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/contact-bg.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Contact</h1>
-                    <hr class="small">
-                    <span class="subheading">Have questions? I have answers (maybe).</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+        <li ><a href="/blog/">BLOG</a></li>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<form name="sentMessage" id="contactForm" action="https://getsimpleform.com/messages?form_api_token=b77e92d46b08b1b80ff66b32b1b1deac" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <!--<input type='hidden' name='redirect_to' value='thanks' />-->
-
-  <!-- all your input fields here....
-  <input type='text' name='name' placeholder="Name" />
-  <input type='text' name='email' placeholder="Email"/>
-  <textarea name="message" placeholder="Message"></textarea>
-  <input type='submit' value='Send message' />
--->
-
-  <div class="row control-group">
-      <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." name='name'>
-          <p class="help-block text-danger"></p>
-      </div>
+        <li ><a href="/whywhathow/">WHAT/WHY/HOW</a></li>
+        <li ><a href="/tutorial/">TUTORIAL</a></li>
+        <li ><a href="/about/">ABOUT</a></li>
+        <li class="active"><a href="/contact/">CONTACT</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
   </div>
-  <div class="row control-group">
-      <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." name='email'>
-          <p class="help-block text-danger"></p>
-      </div>
-  </div>
-
-
-  <div class="row control-group">
-      <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Message</label>
-          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message." name="message"></textarea>
-          <p class="help-block text-danger"></p>
-      </div>
-  </div>
-
-
-  <br>
-  <div id="success"></div>
-  <div class="row">
-      <div class="form-group col-xs-12">
-          <button type="submit" class="btn btn-default" value='Send message'>Send</button>
-      </div>
-  </div>
-
-
-</form>
-
-		</div>
-	</div>
 </div>
 
-<hr>
 
-
-    <!-- Footer -->
-<footer>
+            <div id="blue">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="/feed.xml">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
+            <h3>Contact</h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
+
+    <div id="contactwrap"></div>
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Just Get In Touch!</h4>
+            <div class="hline"></div>
+                <p>Duskr enables you to make beautiful timelapse sequences in variant lighting conditions, unlocking the power of raw.</p>
+
+                <form name="sentMessage" id="contactForm" action="https://getsimpleform.com/messages?form_api_token=b77e92d46b08b1b80ff66b32b1b1deac" method="post">
+                  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                  <!--<input type='hidden' name='redirect_to' value='thanks' />-->
+
+                  <!-- all your input fields here....
+                  <input type='text' name='name' placeholder="Name" />
+                  <input type='text' name='email' placeholder="Email"/>
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <input type='submit' value='Send message' />
+                -->
+
+                  <input type='hidden' name='redirect_to' value="http://127.0.0.1:4000/thanks" />
+
+                  <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                          <label>Name</label>
+                          <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name." name='name'>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+                  <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                          <label>Email Address</label>
+                          <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." name='email'>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+
+
+                  <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                          <label>Message</label>
+                          <textarea rows="5" class="form-control" id="message" required data-validation-required-message="Please enter a message." name="message"></textarea>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+
+
+                  <br>
+                  <div id="success"></div>
+                  <div class="row">
+                      <div class="form-group col-xs-12">
+                          <button type="submit" class="btn btn-default" value='Send message'>Send Message</button>
+                      </div>
+                  </div>
+
+
+                </form>
+        </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Our Address</h4>
+            <div class="hline"></div>
+                <p>
                     
-                    <li>
-                        <a href="https://twitter.com/jonathanlurie">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
+                        Chicoutimi, Quebec, Canada. <br>
                     
-                    
-                    <li>
-                        <a href="https://www.facebook.com/jonathan.lurie">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://github.com/jonathanlurie">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; Journal 2015</p>
-            </div>
+                </p>
+                <p>
+                    Email: hello@duskr.co<br/>
+                    <!--Tel: on request-->
+                </p>
         </div>
-    </div>
-</footer>
+    </div><! --/row -->
+</div><! --/container -->
 
 
-</body>
+        <div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>Duskr enables you to make beautiful timelapse sequences in variant lighting conditions, unlocking the power of raw.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    
+                        <a href="https://twitter.com/jonathanlurie" class="btn-social btn-outline"><i class="fa fa-twitter"></i></a>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-tumblr"></i></a>
+                    
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Our Bunker</h4>
+                <div class="hline-w"></div>
+                <p>
+                    
+                        Chicoutimi, Quebec, Canada. <br>
+                    
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
 
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);
+		}
+
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+
+		function getColumnNumber() {
+			var winWidth = $(window).width(),
+			columnNumber = 1;
+
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}
+
+			function setColumns() {
+				var winWidth = $(window).width(),
+				columnNumber = getColumnNumber(),
+				itemWidth = Math.floor(winWidth / columnNumber);
+
+				$container.find('.portfolio-item').each(function() {
+					$(this).css( {
+					width : itemWidth + 'px'
+				});
+			});
+		}
+
+		function setPortfolio() {
+			setColumns();
+			$container.isotope('reLayout');
+		}
+
+		$container.imagesLoaded(function () {
+			setPortfolio();
+		});
+
+		$(window).on('resize', function () {
+		setPortfolio();
+	});
+})(jQuery);
+</script>
+
+    </body>
 </html>

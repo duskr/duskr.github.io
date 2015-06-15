@@ -1,36 +1,31 @@
 ---
-layout: page
-description: "welcome here"
+layout: index
+title: Home
+permalink: /
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-smile-o" style="color:orange;"></i>
+                <h4>Easy to use</h4>
+                <p>Only two buttons : <strong>Open</strong> and <strong>Interpolate</strong><br>and an auto-backup feature.<br>What else?  </p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-camera" style="color:orange;"></i>
+                <h4>Highly compatible</h4>
+                <p>Same compatiblity as Adobe CameraRaw :<br><strong>super wide!</strong></p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-apple" style="color:orange;"></i>
+                <h4>Apple Store</h4>
+                <p>Available to download on the Mac App Store<br>for only <strong>$7,50</strong></p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
+<br><hr><br>

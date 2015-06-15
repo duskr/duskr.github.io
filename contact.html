@@ -1,55 +1,80 @@
 ---
-layout: page
-title: "Contact"
-description: "Have questions? I have answers (maybe)."
-header-img: "img/contact-bg.jpg"
+layout: contact
+title: Contact
+permalink: /contact/
 ---
 
+<div id="contactwrap"></div>
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Just Get In Touch!</h4>
+            <div class="hline"></div>
+                <p>{{ site.about }}</p>
+
+                <form name="sentMessage" id="contactForm" action="https://getsimpleform.com/messages?form_api_token=b77e92d46b08b1b80ff66b32b1b1deac" method="post">
+                  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                  <!--<input type='hidden' name='redirect_to' value='thanks' />-->
+
+                  <!-- all your input fields here....
+                  <input type='text' name='name' placeholder="Name" />
+                  <input type='text' name='email' placeholder="Email"/>
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <input type='submit' value='Send message' />
+                -->
+
+                  <input type='hidden' name='redirect_to' value="http://127.0.0.1:4000/thanks" />
+
+                  <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                          <label>Name</label>
+                          <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name." name='name'>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
+                  <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                          <label>Email Address</label>
+                          <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." name='email'>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
 
 
-<form name="sentMessage" id="contactForm" action="https://getsimpleform.com/messages?form_api_token=b77e92d46b08b1b80ff66b32b1b1deac" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <!--<input type='hidden' name='redirect_to' value='thanks' />-->
-
-  <!-- all your input fields here....
-  <input type='text' name='name' placeholder="Name" />
-  <input type='text' name='email' placeholder="Email"/>
-  <textarea name="message" placeholder="Message"></textarea>
-  <input type='submit' value='Send message' />
--->
-
-  <div class="row control-group">
-      <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." name='name'>
-          <p class="help-block text-danger"></p>
-      </div>
-  </div>
-  <div class="row control-group">
-      <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." name='email'>
-          <p class="help-block text-danger"></p>
-      </div>
-  </div>
+                  <div class="row control-group">
+                      <div class="form-group col-xs-12 floating-label-form-group controls">
+                          <label>Message</label>
+                          <textarea rows="5" class="form-control" id="message" required data-validation-required-message="Please enter a message." name="message"></textarea>
+                          <p class="help-block text-danger"></p>
+                      </div>
+                  </div>
 
 
-  <div class="row control-group">
-      <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Message</label>
-          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message." name="message"></textarea>
-          <p class="help-block text-danger"></p>
-      </div>
-  </div>
+                  <br>
+                  <div id="success"></div>
+                  <div class="row">
+                      <div class="form-group col-xs-12">
+                          <button type="submit" class="btn btn-default" value='Send message'>Send Message</button>
+                      </div>
+                  </div>
 
 
-  <br>
-  <div id="success"></div>
-  <div class="row">
-      <div class="form-group col-xs-12">
-          <button type="submit" class="btn btn-default" value='Send message'>Send</button>
-      </div>
-  </div>
+                </form>
+        </div><! --/col-lg-8 -->
 
-
-</form>
+        <div class="col-lg-4">
+            <h4>Our Address</h4>
+            <div class="hline"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    Email: {{ site.email }}<br/>
+                    <!--Tel: {{ site.tel }}-->
+                </p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
