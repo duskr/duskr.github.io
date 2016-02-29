@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    color: #565656;
 }
 
 body,
@@ -30,7 +31,7 @@ a{
 }
 
 a:hover{
-    color: #0066ae;
+    color: #6EC2FF;
 }
 
 #subtitle{
@@ -59,14 +60,19 @@ bottom: 0px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/0002.jpg) no-repeat center center;
+    /*background: url(../img/0002.jpg) no-repeat center center;*/
+    /*background: url(../img/photos/60pc/splashscreen-5.jpg) no-repeat center center;*/
+    /*
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(../img/photos/60pc/splashscreen-2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    */
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 18%;
+    padding-bottom: 18%;
 }
 
 .intro-message > h1 {
@@ -146,7 +152,9 @@ bottom: 0px;
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
+    /*background: url(../img/photos/60pc/splashscreen-5.jpg) no-repeat center center;*/
+    background: url(../img/0002.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -215,14 +223,14 @@ p.copyright {
 
 .navbar-default .navbar-nav > li > a,
 .navbar-nav > li > a {
-    font-weight: 400;
+    font-weight: 200;
     color: #3395db;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-nav > li > a:hover {
 
-    color: #0066ae;
+    color: #6EC2FF;
 }
 
 .paddingTop35{
@@ -231,4 +239,14 @@ p.copyright {
 
 .navbar-default{
     background-color: #F7F7F7;
+}
+
+.navbar-default .navbar-toggle:before,
+.navbar-default .navbar-toggle:visited:before{
+    color: #3395db;
+}
+
+.navbar-default .navbar-toggle:hover:before,
+.navbar-default .navbar-toggle:focus:before{
+    color: #6EC2FF;
 }
