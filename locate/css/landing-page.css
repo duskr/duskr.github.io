@@ -18,11 +18,35 @@ h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 30px;
+}
+
+a{
+    color: #3395db;
+}
+
+a:hover{
+    color: #0066ae;
+}
+
+#subtitle{
+    text-transform: uppercase;
+font-size: 21px;
+font-weight: 200;
+letter-spacing: 2px;
+position: absolute;
+/* text-align: center; */
+width: 100%;
+left: 0;
+bottom: 0px;
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -35,7 +59,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/0002.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -52,9 +76,10 @@ h6 {
 }
 
 .intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 100%
+    border-top: 2px solid #FFF;
+    border-bottom: 0px solid rgba(0,0,0,0.2);
+    margin-bottom: 0px
 }
 
 .intro-message > h3 {
@@ -83,6 +108,11 @@ h6 {
     .intro-divider {
         width: 100%;
     }
+
+    #subtitle{
+        font-size: 14px;
+    }
+
 }
 
 .network-name {
@@ -167,4 +197,38 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+#logoTop{
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.hundredW{
+    width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li > a {
+    font-weight: 400;
+    color: #3395db;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-nav > li > a:hover {
+
+    color: #0066ae;
+}
+
+.paddingTop35{
+    padding-top: 35px;
+}
+
+.navbar-default{
+    background-color: #F7F7F7;
 }
