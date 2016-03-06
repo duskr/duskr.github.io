@@ -306,3 +306,8 @@ p.copyright {
 .grey{
     color: #CCC;
 }
+
+
+#primaryActionBtn{
+    width: 100%;
+}
